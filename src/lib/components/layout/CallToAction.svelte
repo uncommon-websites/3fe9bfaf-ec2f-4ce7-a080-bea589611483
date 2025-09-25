@@ -50,11 +50,22 @@
 
 	// Props
 	const {
-		title = "Get started today",
-		subtitle = "Join now",
-		description = "Ready to experience the difference? Join our community of satisfied customers and see how our solution can transform your workflow. ",
-		imageSrc = "https://www.unc.mn/image-placeholder.svg",
-		callsToAction = [cta],
+		title = "Step into full-spectrum autonomy",
+		subtitle = "Ready when you are",
+		description = "See how autonomous surveillance can lighten your team's workload and strengthen your ground response. No pilots. No gaps. No extra headcount.",
+		imageSrc = "/generated/image-a-defense-force-commander-standing-confi.webp",
+		callsToAction = [
+			{
+				href: "/",
+				label: "Request secure demo",
+				variant: "primary"
+			},
+			{
+				href: "/about",
+				label: "Learn more",
+				variant: "secondary"
+			}
+		],
 		...rest
 	}: {
 		title?: string;
@@ -91,7 +102,7 @@
 			</div>
 			<img
 				src={imageSrc}
-				alt="Visual comparison showing product benefits"
+				alt="Confident defense force commander in modern command center"
 				class="hidden aspect-[4/5] size-full max-h-full w-full rounded-[calc(max(var(--inner-radius),.25rem))] object-cover lg:block"
 			/>
 		</div>
