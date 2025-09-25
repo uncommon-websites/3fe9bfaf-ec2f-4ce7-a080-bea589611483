@@ -1,5 +1,5 @@
 <!-- DO NOT EDIT - Managed by todo_list tool -->
-<!-- Updated: 2025-09-25T23:04:05.648Z -->
+<!-- Updated: 2025-09-25T23:08:31.780Z -->
 
 # Current Todo List State
 
@@ -18,3 +18,9 @@
 - [x] Remove generating prop from home page AboutTeaser component
 - [x] Ensure content bridges naturally to about page and builds credibility
 - [x] Final design system compliance check - verify design system classes prioritized over Tailwind, NO shadows, NO custom CSS, NO arbitrary values
+- [x] Generate authentic team/culture imagery that reinforces credibility and shows human side of defense technology
+- [x] Create mission-driven copy that distills Ark Robotics' purpose into memorable phrases
+- [x] Update SecondaryHero component props with compelling about page content
+- [x] Remove generating props from about page components
+- [x] Verify hero aligns with dark-tech aesthetic and brand requirements
+- [x] Final design system compliance check
